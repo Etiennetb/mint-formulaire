@@ -1,62 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title>Hello World</title>
+    <title>Formulaire-Mint</title>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="w+B1sEBYVsU6buMgSgoogtiMxKrGRgsY4P4X9b+zSkreoGHQ/Bw+FwFq4kKCm+LIYSzR+OAE5NKXWAqcWz4CGg==" />
+
+    <link rel="stylesheet" media="all" href="/assets/application-8e16ea251e71e313dd4a25eb7b2236a3fc6fbe3547b798d3e44b6575902c0680.css" data-turbolinks-track="reload" />
+    <script src="/assets/application-4e7bc2f1f25c80962b2c23f294cabed957b65d8e2e43ce258ea531eb0cd70bb1.js" data-turbolinks-track="reload"></script>
+
+    <center>
+  <div class="header">
+
+    <div class="navbar">
+      <button type="SignUp" name="Sign Up">Sign Up</button>
+    </div>
+
+    <div class="center-title"></div>
+  </div>
+</center>
+
   </head>
+
   <body>
-	    <h1>Hello World</h1>
-	    <p>This is a youtube-wannabe web page.</p>
 
-	 <!--    <div class="video_part">
+  <div class="container">
+  </div>
 
-		    <div id="video">
-		    	<iframe width="854" height="431"
-						src="https://www.youtube.com/embed/ZfCq0QVvrSY">
-		    </div>
+  
 
-		    <div class="comment">
-		    	<p> Title of the video </p>
-		    	<p> Text Explanation </p>
-		    </div>
+  <div class="container">
+      <h1></h1>
+    <div class="wrapper">
 
-	    </div> -->
+    <div class="one"><img class="img-icons" src="/assets/icones-77f515dcd5b01cb09d37984031b3c8f02b75f8d513f637393cb12da76e0708f1.png" alt="Icones" width="318" height="23" /></div>
 
-	    <div class="sidebar">
-	    	
-	    	<div class="thumbnail">
-		    	<img src="/images/cab.jpeg" width="168" height="94">
-		    	<div class="comment">
-			    	<p> Title of the video </p>
-			    	<p> Text Explanation </p>
-			    </div>
-	    	</div>
+    <div class="two">
+      <center><h1>One Account. <br>
+      Everything Intuit.</h1></center>
+      <p>Sign in to your Intuit account to access all our <br>
+        products including Mint. Learn more</center></p>
+      </center>
+    </div>
 
-	    	<div class="thumbnail">
-		    	<img src="images/betty.jpg" width="168" height="94">
-		    	<div class="comment">
-			    	<p> Title of the video </p>
-			    	<p> Text Explanation </p>
-			    </div>
-	    	</div>
+    <div class="four">
+      <form class="new_user" id="new_user" action="/users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NJ58t6jeKBLRfAZgCDPXJigIXXvQfgIyLZl1Byq4Jfs8uPsjdxzD0EZY/HdIZt1BReycLp7XPNetQz9nELws0A==" />
+  
 
-	    	<div class="thumbnail">
-		    	<img src="images/betty.jpg" width="168" height="94">
-		    	<div class="comment">
-			    	<p> Title of the video </p>
-			    	<p> Text Explanation </p>
-			    </div>
-	    	</div>
+  <div class="register-group">
 
-	    	<div class="thumbnail">
-		    	<img src="images/betty.jpg" width="168" height="94">
-		    	<div class="comment">
-			    	<p> Title of the video </p>
-			    	<p> Text Explanation </p>
-			    </div>
-	    	</div>
+    <div class="field">
+      <label for="user_email">Email</label><br />
+      <input autofocus="autofocus" type="email" value="" name="user[email]" id="user_email" />
+    </div>
+
+    <div class="field">
+      <label for="user_phone">phone</label><br>
+      <input type="text" name="user[phone]" id="user_phone" />
+    </div>
+
+    <div class="field">
+      <label for="user_password">Password</label>
+      <em>(6 characters minimum)</em>
+      <br />
+      <input autocomplete="off" type="password" name="user[password]" id="user_password" />
+    </div>
+
+    <div class="field">
+      <label for="user_password_confirmation">Password confirmation</label><br />
+      <input autocomplete="off" type="password" name="user[password_confirmation]" id="user_password_confirmation" />
+    </div>
 
 
-	    </div>
-  </body>
+  <div class="actions">
+    <input type="submit" name="commit" value="Sign up" data-disable-with="Sign up" />
+  </div>
+</div>
+</form>
+  <a href="/users/sign_in">Log in</a><br />
+
+
+
+
+
+
+
+      <div class="License">
+        <p>By clicking Sign In, you agree to our <br>
+License Agreement and Privacy Statement.</p>
+      </div>
+    </div>
+
+  <div class="five">
+dsqd
+  </div>
+</div>
+
+  </div>
+  <center>
+  <div class="center-title-mini"></div>
+
+  <div class="footer-text">
+    <p>LegalPrivacySecurity <br>
+    © 2017 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. <br>
+    Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+  </div>
+</center>
+
+</body>
 </html>
